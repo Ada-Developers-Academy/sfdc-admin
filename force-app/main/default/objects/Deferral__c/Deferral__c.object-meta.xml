@@ -53,7 +53,7 @@
     <enableSearch>true</enableSearch>
     <enableSharing>false</enableSharing>
     <enableStreamingApi>false</enableStreamingApi>
-    <externalSharingModel>ReadWrite</externalSharingModel>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
     <label>Deferral</label>
     <nameField>
         <displayFormat>DEF-{000}</displayFormat>
@@ -63,6 +63,6 @@
     </nameField>
     <pluralLabel>Deferrals</pluralLabel>
     <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
