@@ -56,9 +56,10 @@
     <externalSharingModel>ControlledByParent</externalSharingModel>
     <label>Sponsorship</label>
     <nameField>
-        <label>Sponsorship Name</label>
+        <displayFormat>SPN-{0}</displayFormat>
+        <label>Sponsorship ID</label>
         <trackHistory>true</trackHistory>
-        <type>Text</type>
+        <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Sponsorships</pluralLabel>
     <searchLayouts/>
