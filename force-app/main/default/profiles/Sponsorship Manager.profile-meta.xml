@@ -6,6 +6,11 @@
         <field>Deferral__c.NewCohort__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Student__c.Internship__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>Class__c-Class Layout</layout>
     </layoutAssignments>
