@@ -16,6 +16,9 @@
         <layout>Deferral__c-Deferral Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Sponsorship__c-Sponsorship Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Student__c-Student Layout</layout>
     </layoutAssignments>
     <objectPermissions>
@@ -43,6 +46,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>Deferral__c</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Sponsorship__c</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
