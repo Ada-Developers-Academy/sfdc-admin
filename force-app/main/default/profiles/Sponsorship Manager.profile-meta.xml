@@ -8,6 +8,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Student__c.Address__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Student__c.Internship__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -19,6 +24,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Student__c.PronounsURL__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Student__c.Relocating__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
