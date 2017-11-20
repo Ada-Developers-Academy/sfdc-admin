@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PronounsURL__c</fullName>
+    <description>Use this to link to a particular https://pronoun.is/ page when the Pronouns field is "other".</description>
+    <externalId>false</externalId>
+    <label>Pronouns URL</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Url</type>
+</CustomField>

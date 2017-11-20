@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>pronouns_must_be_set</fullName>
+    <active>true</active>
+    <description>When the pronouns field is set to "other", then the pronouns URL must be set.</description>
+    <errorConditionFormula>ISPICKVAL(Pronouns__c, "other") &amp;&amp; (LEFT(PronounsURL__c, 19) != "https://pronoun.is/")</errorConditionFormula>
+    <errorDisplayField>PronounsURL__c</errorDisplayField>
+    <errorMessage>When the pronouns field is set to "other", then the pronouns URL must link to a page on https://pronoun.is/.</errorMessage>
+</ValidationRule>
