@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ethnicity__c</fullName>
+    <externalId>false</externalId>
+    <label>Ethnicity</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>white</fullName>
+                <default>false</default>
+                <label>White</label>
+            </value>
+            <value>
+                <fullName>black</fullName>
+                <default>false</default>
+                <label>Black or African-American</label>
+            </value>
+            <value>
+                <fullName>native</fullName>
+                <default>false</default>
+                <label>American Indian or Alaskan Native</label>
+            </value>
+            <value>
+                <fullName>asian</fullName>
+                <default>false</default>
+                <label>East Asian (including Southeast Asia)</label>
+            </value>
+            <value>
+                <fullName>pac_islander</fullName>
+                <default>false</default>
+                <label>Native Hawaiian or Pacific Islander</label>
+            </value>
+            <value>
+                <fullName>hispanic</fullName>
+                <default>false</default>
+                <label>Hispanic/Latinx</label>
+            </value>
+            <value>
+                <fullName>middle_eastern</fullName>
+                <default>false</default>
+                <label>Middle Eastern or North African</label>
+            </value>
+            <value>
+                <fullName>south_asian</fullName>
+                <default>false</default>
+                <label>South Asian</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>
