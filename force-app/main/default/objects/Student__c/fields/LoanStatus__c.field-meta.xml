@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LoanStatus__c</fullName>
+    <description>Whether this student applied for the loan program, and whether their loan has been paid back.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Whether this student applied for the loan program, and whether their loan has been paid back.</inlineHelpText>
+    <label>Loan Status</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No Loan</fullName>
+                <default>true</default>
+                <label>No Loan</label>
+            </value>
+            <value>
+                <fullName>Applied</fullName>
+                <default>false</default>
+                <label>Applied</label>
+            </value>
+            <value>
+                <fullName>Accepted</fullName>
+                <default>false</default>
+                <label>Accepted</label>
+            </value>
+            <value>
+                <fullName>Paid Back</fullName>
+                <default>false</default>
+                <label>Paid Back</label>
+            </value>
+            <value>
+                <fullName>Defaulted</fullName>
+                <default>false</default>
+                <label>Defaulted</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
