@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PhotoRelease__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Whether this student has given written permission for Ada to use their photo publicly.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Whether this student has given written permission for Ada to use their photo publicly.</inlineHelpText>
+    <label>Photo Release</label>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>
