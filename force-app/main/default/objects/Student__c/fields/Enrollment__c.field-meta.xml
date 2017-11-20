@@ -8,7 +8,7 @@
     <referenceTo>Class__c</referenceTo>
     <relationshipLabel>Students</relationshipLabel>
     <relationshipName>Students</relationshipName>
-    <required>true</required>
+    <required>false</required>
     <trackHistory>true</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Lookup</type>
