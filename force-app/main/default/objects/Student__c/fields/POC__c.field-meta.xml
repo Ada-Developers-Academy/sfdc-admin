@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>POC__c</fullName>
+    <externalId>false</externalId>
+    <formula>INCLUDES(Ethnicity__c, "black") ||
+INCLUDES(Ethnicity__c, "native") ||
+INCLUDES(Ethnicity__c, "asian") ||
+INCLUDES(Ethnicity__c, "pac_islander") ||
+INCLUDES(Ethnicity__c, "hispanic") ||
+INCLUDES(Ethnicity__c, "middle_eastern") ||
+INCLUDES(Ethnicity__c, "south_asian")</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Person of Color</inlineHelpText>
+    <label>POC</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>
