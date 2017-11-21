@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#4C868F</headerColor>
+        <logo>ADA_logo_small</logo>
+        <logoVersion>1</logoVersion>
+    </brand>
+    <description>Manage the school and students.</description>
+    <formFactors>Large</formFactors>
+    <label>School Administration</label>
+    <navType>Standard</navType>
+    <tab>Student__c</tab>
+    <uiType>Lightning</uiType>
+    <utilityBar>School_Administration_UtilityBar</utilityBar>
+</CustomApplication>
