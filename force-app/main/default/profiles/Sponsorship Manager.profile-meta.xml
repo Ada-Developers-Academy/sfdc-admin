@@ -166,6 +166,10 @@
         <object>Student__c</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
+    <tabVisibilities>
+        <tab>Student__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>
